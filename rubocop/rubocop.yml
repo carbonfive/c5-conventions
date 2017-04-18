@@ -24,7 +24,7 @@ Metrics/BlockLength:
   CountComments: false
   Max: 50
   Exclude:
-    - '**/*_spec.rb'
+    - "**/*_spec.rb"
 
 Metrics/ClassLength:
   Max: 250
