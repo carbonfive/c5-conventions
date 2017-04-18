@@ -10,6 +10,13 @@
 AllCops:
   TargetRubyVersion: 2.4
 
+#
+# Ruby Cops
+#
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
 Metrics/AbcSize:
   Max: 35
 
@@ -20,7 +27,7 @@ Metrics/BlockLength:
     - '**/*_spec.rb'
 
 Metrics/ClassLength:
-  Max: 200
+  Max: 250
 
 Metrics/LineLength:
   Max: 120
@@ -30,6 +37,9 @@ Metrics/MethodLength:
 
 Security/YAMLLoad:
   Enabled: false
+
+Style/BlockDelimiters:
+  EnforcedStyle: braces_for_chaining
 
 Style/CaseIndentation:
   Enabled: false
@@ -45,6 +55,9 @@ Style/FrozenStringLiteralComment:
 
 Style/IndentArray:
   EnforcedStyle: consistent
+
+Style/Lambda:
+  EnforcedStyle: literal
 
 Style/ModuleFunction:
   EnforcedStyle: extend_self
@@ -68,4 +81,11 @@ Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
 
 Style/StructInheritance:
+  Enabled: false
+
+#
+# Rails Cops
+#
+
+Rails/HasAndBelongsToMany:
   Enabled: false
