@@ -9,6 +9,9 @@
 
 AllCops:
   TargetRubyVersion: 2.4
+  Exclude:
+    - 'lib/templates/**/*'
+    - 'db/schema.rb'
 
 #
 # Ruby Cops
