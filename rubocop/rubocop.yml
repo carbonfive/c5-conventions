@@ -14,6 +14,15 @@ AllCops:
 # Ruby Cops
 #
 
+Layout/CaseIndentation:
+  Enabled: false
+
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
 Lint/AmbiguousBlockAssociation:
   Enabled: false
 
@@ -41,9 +50,6 @@ Security/YAMLLoad:
 Style/BlockDelimiters:
   EnforcedStyle: braces_for_chaining
 
-Style/CaseIndentation:
-  Enabled: false
-
 Style/Documentation:
   Enabled: false
 
@@ -53,17 +59,11 @@ Style/EmptyMethod:
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
 
-Style/IndentArray:
-  EnforcedStyle: consistent
-
 Style/Lambda:
   EnforcedStyle: literal
 
 Style/ModuleFunction:
   EnforcedStyle: extend_self
-
-Style/MultilineMethodCallIndentation:
-  EnforcedStyle: indented
 
 Style/MutableConstant:
   Enabled: false
