@@ -35,6 +35,10 @@ Layout/MultilineMethodCallIndentation:
 Lint/AmbiguousBlockAssociation:
   Enabled: false
 
+Lint/ScriptPermission:
+  Exclude:
+    - "Rakefile"
+
 Metrics/AbcSize:
   Max: 35
   Exclude:
