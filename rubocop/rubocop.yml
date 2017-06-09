@@ -9,7 +9,11 @@
 
 AllCops:
   TargetRubyVersion: 2.4
+  DisplayCopNames: true
+  DisplayStyleGuide: true
   Exclude:
+    - "bin/*"
+    - "db/schema.rb"
     - "lib/templates/**/*"
     - "tmp/**/*"
     - "vendor/**/*"
@@ -33,24 +37,38 @@ Lint/AmbiguousBlockAssociation:
 
 Metrics/AbcSize:
   Max: 35
+  Exclude:
+    - "spec/**/*"
 
 Metrics/BlockLength:
   CountComments: false
   Max: 50
   Exclude:
-    - "**/*_spec.rb"
+    - "config/**/*"
+    - "spec/**/*"
 
 Metrics/ClassLength:
   Max: 250
+  Exclude:
+    - "spec/**/*"
 
 Metrics/LineLength:
   Max: 120
 
 Metrics/MethodLength:
   Max: 25
+  Exclude:
+    - "db/migrate/*"
+    - "spec/**/*"
+
+Performance/Casecmp:
+  Enabled: false
 
 Security/YAMLLoad:
   Enabled: false
+
+Style/BarePercentLiterals:
+  EnforcedStyle: percent_q
 
 Style/BlockDelimiters:
   EnforcedStyle: braces_for_chaining
@@ -86,11 +104,15 @@ Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
 
 Style/StructInheritance:
-  Enabled: false
+  Enabled: true
 
 #
 # Rails Cops
 #
+
+Rails/ApplicationRecord:
+  Exclude:
+    - "db/migrate/**"
 
 Rails/HasAndBelongsToMany:
   Enabled: false
