@@ -15,9 +15,10 @@ AllCops:
     - "bin/*"
     - "db/schema.rb"
     - "lib/templates/**/*"
+    - "**/node_modules/**/*"
     - "tmp/**/*"
     - "vendor/**/*"
-    - "log/**/*"  
+    - "log/**/*"
 
 #
 # Ruby Cops
