@@ -65,6 +65,9 @@ Metrics/MethodLength:
     - "db/migrate/*"
     - "spec/**/*"
 
+Naming/PredicateName:
+  Enabled: false
+
 Performance/Casecmp:
   Enabled: false
 
@@ -93,9 +96,6 @@ Style/ModuleFunction:
   EnforcedStyle: extend_self
 
 Style/MutableConstant:
-  Enabled: false
-
-Style/PredicateName:
   Enabled: false
 
 Style/PreferredHashMethods:
