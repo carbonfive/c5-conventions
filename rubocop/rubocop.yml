@@ -24,6 +24,9 @@ AllCops:
 # Ruby Cops
 #
 
+Layout/AlignHash:
+  Enabled: false
+
 Layout/CaseIndentation:
   Enabled: false
 
