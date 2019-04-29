@@ -29,7 +29,7 @@ Layout/AlignHash:
 Layout/CaseIndentation:
   Enabled: false
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
 Layout/MultilineMethodCallIndentation:
