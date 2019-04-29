@@ -8,7 +8,6 @@
 #
 
 AllCops:
-  TargetRubyVersion: 2.4
   DisplayCopNames: true
   DisplayStyleGuide: true
   Exclude:
@@ -30,7 +29,7 @@ Layout/AlignHash:
 Layout/CaseIndentation:
   Enabled: false
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
 Layout/MultilineMethodCallIndentation:
