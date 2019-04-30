@@ -71,9 +71,6 @@ Metrics/MethodLength:
 Naming/PredicateName:
   Enabled: false
 
-Performance/Casecmp:
-  Enabled: false
-
 Security/YAMLLoad:
   Enabled: false
 
