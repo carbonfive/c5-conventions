@@ -7,6 +7,8 @@
 # See http://rubocop.readthedocs.io/en/latest/configuration/#inheriting-configuration-from-a-remote-url for details.
 #
 
+require: rubocop-performance
+
 AllCops:
   DisplayCopNames: true
   DisplayStyleGuide: true
