@@ -125,3 +125,6 @@ Rails/ApplicationRecord:
 
 Rails/HasAndBelongsToMany:
   Enabled: false
+
+Rails/RakeEnvironment:
+  Enabled: false
