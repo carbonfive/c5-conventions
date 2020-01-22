@@ -34,6 +34,9 @@ Layout/FirstArrayElementIndentation:
 Layout/HashAlignment:
   Enabled: false
 
+Layout/LineLength:
+  Max: 120
+
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
@@ -60,9 +63,6 @@ Metrics/ClassLength:
   Max: 250
   Exclude:
     - "spec/**/*"
-
-Metrics/LineLength:
-  Max: 120
 
 Metrics/MethodLength:
   Max: 25
