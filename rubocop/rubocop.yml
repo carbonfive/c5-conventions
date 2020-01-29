@@ -1,12 +1,3 @@
-# Configuration hierarchy:
-#
-# 1. Rubocop defaults
-# 2. Carbon Five defaults (this file)
-# 3. Project overrides
-#
-# See http://rubocop.readthedocs.io/en/latest/configuration/#inheriting-configuration-from-a-remote-url for details.
-#
-
 require:
   - rubocop-performance
   - rubocop-rails
