@@ -16,7 +16,9 @@ RSpec/ExampleLength:
   Exclude:
     - "spec/system/**/*"
 
-# Prefer simple, single-statement examples be collapsed to 1 line like this:
+# If an `it` block does not have a description (i.e. the example relies on
+# RSpec magic to infer the description), then prefer it use the `is_expected`
+# syntax instead of `expect(subject)`, like this:
 # it { is_expected.to be_truthy }
 RSpec/ImplicitSubject:
   EnforcedStyle: single_statement_only
