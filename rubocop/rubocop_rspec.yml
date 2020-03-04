@@ -25,6 +25,9 @@ RSpec/ImplicitSubject:
 
 # Ideal BDD is to have one `expect` per example (so that each specification can
 # have corresponding documentation in the form of an `it` block), but we allow
-# some flexibility (up to 3).
+# some flexibility (up to 3). System specs are often long capybara flows with
+# many expectations, so we exclude them from this cop.
 RSpec/MultipleExpectations:
   Max: 3 # Default is 1
+  Exclude:
+    - "spec/system/**/*"
