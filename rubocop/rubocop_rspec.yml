@@ -5,6 +5,7 @@ require:
 # so they are excluded from following the `describe ClassOrModule` rule.
 RSpec/DescribeClass:
   Exclude:
+    - "spec/features/**/*"
     - "spec/requests/**/*"
     - "spec/system/**/*"
 
@@ -14,6 +15,7 @@ RSpec/DescribeClass:
 RSpec/ExampleLength:
   Max: 12 # Default is 5
   Exclude:
+    - "spec/features/**/*"
     - "spec/system/**/*"
 
 # If an `it` block does not have a description (i.e. the example relies on
@@ -30,4 +32,5 @@ RSpec/ImplicitSubject:
 RSpec/MultipleExpectations:
   Max: 3 # Default is 1
   Exclude:
+    - "spec/features/**/*"
     - "spec/system/**/*"
