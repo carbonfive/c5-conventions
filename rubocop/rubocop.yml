@@ -21,6 +21,9 @@ AllCops:
 Layout/CaseIndentation:
   Enabled: false
 
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
@@ -33,12 +36,27 @@ Layout/LineLength:
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
 Lint/AmbiguousBlockAssociation:
   Enabled: false
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
+
+Lint/RaiseException:
+  Enabled: true
 
 Lint/ScriptPermission:
   Exclude:
     - "Rakefile"
+
+Lint/StructNewOverride:
+  Enabled: true
 
 Metrics/AbcSize:
   Max: 35
@@ -84,18 +102,21 @@ Style/Documentation:
 Style/EmptyMethod:
   EnforcedStyle: expanded
 
+Style/ExponentialNotation:
+  Enabled: true
+
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
-  
+
 Style/HashEachMethods:
   Enabled: true
-  
+
 Style/HashTransformKeys:
   Enabled: true
-  
+
 Style/HashTransformValues:
   Enabled: true
-  
+
 Style/Lambda:
   EnforcedStyle: literal
 
@@ -107,6 +128,15 @@ Style/MutableConstant:
 
 Style/PreferredHashMethods:
   Enabled: false
+
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+
+Style/RedundantRegexpEscape:
+  Enabled: true
+
+Style/SlicingWithRange:
+  Enabled: true
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
