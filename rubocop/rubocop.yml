@@ -129,6 +129,9 @@ Style/MutableConstant:
 Style/PreferredHashMethods:
   Enabled: false
 
+Style/RedundantFetchBlock:
+  Enabled: true
+
 Style/RedundantRegexpCharacterClass:
   Enabled: true
 
