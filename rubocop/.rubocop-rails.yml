@@ -1,0 +1,9 @@
+Rails/ApplicationRecord:
+  Exclude:
+    - "db/migrate/**"
+
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+Rails/RakeEnvironment:
+  Enabled: false

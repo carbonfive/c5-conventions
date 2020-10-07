@@ -1,6 +1,3 @@
-require:
-  - rubocop-rspec
-
 # Request and system specs by definition do not test specific classes/modules,
 # so they are excluded from following the `describe ClassOrModule` rule.
 RSpec/DescribeClass:
