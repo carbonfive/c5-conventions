@@ -18,7 +18,12 @@ Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
 Layout/HashAlignment:
-  Enabled: false
+  EnforcedColonStyle:
+    - key
+    - table
+  EnforcedHashRocketStyle:
+    - key
+    - table
 
 Layout/LineLength:
   Max: 120
