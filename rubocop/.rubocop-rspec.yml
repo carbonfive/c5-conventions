@@ -5,6 +5,7 @@ RSpec/DescribeClass:
     - "spec/features/**/*"
     - "spec/requests/**/*"
     - "spec/system/**/*"
+    - "spec/tasks/**/*"
 
 # Prefer short examples but allow some flexibility (up to 12 lines). System
 # specs are excluded from this cop because they often involve many sequential
