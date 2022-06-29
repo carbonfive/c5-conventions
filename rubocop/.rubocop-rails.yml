@@ -1,3 +1,6 @@
+AllCops:
+  ActiveSupportExtensionsEnabled: true
+
 Rails/ApplicationRecord:
   Exclude:
     - "db/migrate/**"
