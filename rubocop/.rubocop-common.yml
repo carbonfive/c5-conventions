@@ -17,6 +17,15 @@ Layout/CaseIndentation:
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
+Layout/FirstArrayElementLineBreak:
+  Enabled: true
+
+Layout/FirstHashElementLineBreak:
+  Enabled: true
+
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: true
+
 Layout/HashAlignment:
   EnforcedColonStyle:
     - key
@@ -27,6 +36,15 @@ Layout/HashAlignment:
 
 Layout/LineLength:
   Max: 120
+
+Layout/MultilineArrayLineBreaks:
+  Enabled: true
+
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: true
+
+Layout/MultilineMethodArgumentLineBreaks:
+  Enabled: true
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
